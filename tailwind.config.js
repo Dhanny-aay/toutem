@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'toutemgreen':'#5fd788',
+        'toutedark':'#1f2937',
         'toutemgrey':'#9ca3af',
         'whiteshade':'#f9fafb',
         'greyshade':'#1f2937',

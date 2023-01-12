@@ -513,6 +513,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -539,6 +543,14 @@ video {
 
 .top-4 {
   top: 1rem;
+}
+
+.bottom-12 {
+  bottom: 3rem;
+}
+
+.right-6 {
+  right: 1.5rem;
 }
 
 .z-50 {
@@ -734,6 +746,10 @@ video {
   height: 191px;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -768,6 +784,14 @@ video {
 
 .w-\[205px\] {
   width: 205px;
+}
+
+.w-14 {
+  width: 3.5rem;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .flex-row {
@@ -814,6 +838,10 @@ video {
   border-radius: 0.5rem;
 }
 
+.rounded-\[50\%\] {
+  border-radius: 50%;
+}
+
 .rounded-tr-\[20px\] {
   border-top-right-radius: 20px;
 }
@@ -848,6 +876,11 @@ video {
 .bg-\[\#f3f4f6\] {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-toutedark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .bg-diffuse {
@@ -902,6 +935,11 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-2 {
@@ -1082,6 +1120,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .backdrop-blur-\[7\.5px\] {
   --tw-backdrop-blur: blur(7.5px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -1244,14 +1288,14 @@ video {
     background-position: left top;
   }
 
-  .md\:px-\[65px\] {
-    padding-left: 65px;
-    padding-right: 65px;
-  }
-
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:px-\[65px\] {
+    padding-left: 65px;
+    padding-right: 65px;
   }
 
   .md\:pr-\[70px\] {
@@ -1368,10 +1412,6 @@ video {
     margin-left: 10%;
   }
 
-  .lg\:mr-auto {
-    margin-right: auto;
-  }
-
   .lg\:block {
     display: block;
   }
@@ -1398,10 +1438,6 @@ video {
 
   .lg\:items-center {
     align-items: center;
-  }
-
-  .lg\:justify-start {
-    justify-content: flex-start;
   }
 
   .lg\:justify-center {
