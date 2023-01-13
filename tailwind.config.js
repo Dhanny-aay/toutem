@@ -6,8 +6,10 @@ module.exports = {
       colors: {
         'toutemgreen':'#5fd788',
         'toutedark':'#1f2937',
+        'toutedarkbox':'#374151',
         'toutemgrey':'#9ca3af',
         'whiteshade':'#f9fafb',
+        'whiteshade1':'#f3f4f6',
         'greyshade':'#1f2937',
         'greyshade1':'#6b7280',
         'bg-rgba': 'rgba(255, 255, 255, 0.3)',
