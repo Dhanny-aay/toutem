@@ -889,27 +889,27 @@ video {
 }
 
 .bg-diffuse {
-  background-image: url('/src/diffuser.png');
+  background-image: url('/diffuser.png');
 }
 
 .bg-diffuse1 {
-  background-image: url('/src/diffuser2.png');
+  background-image: url('/diffuser2.png');
 }
 
 .bg-soap {
-  background-image: url('/src/soaps.png');
+  background-image: url('/soaps.png');
 }
 
 .bg-flower {
-  background-image: url('/src/flower1.png');
+  background-image: url('/flower1.png');
 }
 
 .bg-basket {
-  background-image: url('/src/basket.png');
+  background-image: url('/basket.png');
 }
 
 .bg-cream {
-  background-image: url('/src/cream.png');
+  background-image: url('/cream.png');
 }
 
 .bg-cover {
@@ -1288,7 +1288,7 @@ video {
   }
 
   .md\:bg-soa {
-    background-image: url('/src/soa.png');
+    background-image: url('/soa.png');
   }
 
   .md\:bg-\[length\:35\%_100\%\] {
@@ -1311,6 +1311,11 @@ video {
   .md\:px-\[65px\] {
     padding-left: 65px;
     padding-right: 65px;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:pr-\[70px\] {
@@ -1459,10 +1464,10 @@ video {
     justify-content: center;
   }
 
-  .lg\:space-x-\[20px\] > :not([hidden]) ~ :not([hidden]) {
+  .lg\:space-x-\[30px\] > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
-    margin-right: calc(20px * var(--tw-space-x-reverse));
-    margin-left: calc(20px * calc(1 - var(--tw-space-x-reverse)));
+    margin-right: calc(30px * var(--tw-space-x-reverse));
+    margin-left: calc(30px * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -1483,18 +1488,17 @@ video {
     margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
-  .lg\:space-x-\[30px\] > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(30px * var(--tw-space-x-reverse));
-    margin-left: calc(30px * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .lg\:bg-soaps {
-    background-image: url('/src/soap.png');
+    background-image: url('/soap.png');
   }
 
   .lg\:bg-\[length\:45\%_100\%\] {
     background-size: 45% 100%;
+  }
+
+  .lg\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .lg\:pr-\[70px\] {

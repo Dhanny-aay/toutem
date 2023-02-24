@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -21,15 +21,15 @@ module.exports = {
         'muli': ['"Mulish"', 'sans-serif']
       },
       backgroundImage: {
-        'diffuse': "url('/src/diffuser.png')",
-        'diffuse1': "url('/src/diffuser2.png')",
-        'soap': "url('/src/soaps.png')",
-        'soaps': "url('/src/soap.png')",
-        'soa': "url('/src/soa.png')",
-        'flower': "url('/src/flower1.png')",
-        'basket': "url('/src/basket.png')",
-        'cream': "url('/src/cream.png')",
-        'glow': "url('/src/glow.png')",
+        'diffuse': "url('/diffuser.png')",
+        'diffuse1': "url('/diffuser2.png')",
+        'soap': "url('/soaps.png')",
+        'soaps': "url('/soap.png')",
+        'soa': "url('/soa.png')",
+        'flower': "url('/flower1.png')",
+        'basket': "url('/basket.png')",
+        'cream': "url('/cream.png')",
+        'glow': "url('/glow.png')",
       },
       boxShadow: {
         'cust': '0px 4px 8px rgba(0, 0, 0, 0.1)'
